@@ -1,0 +1,13 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    background: #a548ad; /* Old browsers */
+
+    background: -moz-linear-gradient(top, #a548ad 0%, #fffbf7 25%, #fffaf4 50%, #ba64a6 100%); /* FF3.6-15 */
+
+    background: -webkit-linear-gradient(top, #a548ad 0%,#fffbf7 25%,#fffaf4 50%,#ba64a6 100%); /* Chrome10-25,Safari5.1-6 */
+
+    background: linear-gradient(to bottom, #a548ad 0%,#fffbf7 25%,#fffaf4 50%,#ba64a6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a548ad', endColorstr='#ba64a6',GradientType=0 ); /* IE6-9 */
+}

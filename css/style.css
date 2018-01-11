@@ -1,0 +1,66 @@
+/* CSS validated at https://jigsaw.w3.org/css-validator/ */
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    background-image: url("bp.jpg");
+    
+    background: #c65d53; /* Old browsers */
+
+    background: -moz-linear-gradient(top, #c65d53 0%, #fffbf7 25%, #fffaf4 50%, #ff442b 100%); /* FF3.6-15 */
+
+    background: -webkit-linear-gradient(top, #c65d53 0%,#fffbf7 25%,#fffaf4 50%,#ff442b 100%); /* Chrome10-25,Safari5.1-6 */
+
+    background: linear-gradient(to bottom, #c65d53 0%,#fffbf7 25%,#fffaf4 50%,#ff442b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c65d53', endColorstr='#ff442b',GradientType=0 ); /* IE6-9 */
+}
+
+nav{
+    border: 2px solid black;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 110px;
+}
+
+nav ul li:hover{
+    opacity: 0.5;
+}
+header{
+    text-align: center;
+    padding:10px;
+}
+
+footer{
+    padding-top: 200px;
+    text-align: right;
+}
+
+.container{
+    padding:30px;
+}
+
+/* animating the car images */
+#caranimate{
+    display:inline-block;
+    animation-duration:0.5s;
+    animation-name: appear;
+    animation-iteration-count: 1;
+    
+}
+
+@keyframes appear{
+    from{
+        margin-left:100%;
+    }
+}
+
+#search{
+    margin-bottom:20px;
+    margin-left:900px;
+}
+
+
+
+
